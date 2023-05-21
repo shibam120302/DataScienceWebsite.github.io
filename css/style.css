@@ -469,7 +469,20 @@ header {
     -webkit-text-fill-color: transparent;
     font-weight: 800;
 }
+ .nav__menu a:focus{
+    color: var(--color-define);
+  }
 
+
+  .nav__menu a:active{
+    color: var(--color-define);
+  }
+
+
+
+  .nav__menu a.selected{
+    color: var(--color-define);
+  }
 
 /* ============== VISION ============= */
 
